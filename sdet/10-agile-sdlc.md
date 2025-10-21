@@ -1,5 +1,61 @@
 # 10. Agile & SDLC
 
+## 📚 Quick Summary
+
+Understanding Agile is essential - 90% of companies use it!
+
+**What You'll Learn:**
+- **Agile/Scrum**: Iterative development methodology
+- **Sprint Planning**: 2-week cycles of work
+- **TDD**: Write tests before code
+- **BDD**: Behavior-Driven Development with Cucumber
+- **Testing in Agile**: Continuous testing, not end-phase
+- **Quality Gates**: Checkpoints before production
+
+**Why This Matters:**
+- Most interviews ask about Agile experience
+- SDETs participate in sprint planning
+- Need to understand the process, not just testing
+- Collaboration with developers crucial
+
+**Interview Tip:**
+"I participate in daily standups, sprint planning, and retrospectives" shows team player!
+
+---
+
+## 📖 Simple Explanation
+
+**What is Agile?**
+Instead of building entire house and then testing, build one room at a time, test it, get feedback, then next room.
+
+**Waterfall (Old Way):**
+```
+Requirements (3 months) → Design (2 months) → 
+Development (6 months) → Testing (2 months) → Deploy
+
+Problem: Testing happens at end, bugs expensive to fix,
+customer sees product after 13 months!
+```
+
+**Agile (Modern Way):**
+```
+Sprint 1 (2 weeks): Plan → Develop → Test → Demo → Feedback
+Sprint 2 (2 weeks): Plan → Develop → Test → Demo → Feedback
+Sprint 3 (2 weeks): Plan → Develop → Test → Demo → Feedback
+...
+
+Benefit: Customer sees working features every 2 weeks,
+bugs found early, can change direction easily!
+```
+
+**Scrum Roles:**
+- **Product Owner**: What to build (priorities)
+- **Scrum Master**: How to build (process)
+- **Dev Team**: Build it (includes SDETs!)
+- **SDET Role**: Testing throughout sprint, automation, quality
+
+---
+
 ## Table of Contents
 - [Agile Methodologies](#agile-methodologies)
 - [Scrum Framework](#scrum-framework)

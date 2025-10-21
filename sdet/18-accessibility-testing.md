@@ -1,5 +1,68 @@
 # 18. Accessibility Testing (A11y)
 
+## 📚 Quick Summary
+
+Make your app usable for EVERYONE - including 15% with disabilities!
+
+**What You'll Learn:**
+- **WCAG**: Web Content Accessibility Guidelines (industry standard)
+- **Automated Testing**: axe-core, Pa11y, WAVE
+- **Manual Testing**: Screen readers, keyboard navigation
+- **Legal**: ADA compliance (can be sued for inaccessible sites!)
+- **Integration**: Add a11y tests to CI/CD
+
+**Why This Matters:**
+- **Legal Requirement**: Many countries mandate accessibility
+- **1 Billion Users**: Have some form of disability
+- **SEO Benefit**: Accessible sites rank better
+- **Growing Trend**: More companies prioritizing a11y
+- **Right Thing**: Everyone deserves access
+
+**Real Stats:**
+- Domino's Pizza: Lost $4M+ lawsuit for inaccessible website
+- 70% of top websites fail basic a11y tests
+
+---
+
+## 📖 Simple Explanation
+
+**What is Accessibility (A11y)?**
+Making your website/app usable by people with disabilities:
+- **Blind**: Use screen readers (reads page aloud)
+- **Low Vision**: Need high contrast, large text
+- **Deaf**: Need captions for videos
+- **Motor Disabilities**: Can't use mouse, keyboard-only
+- **Cognitive**: Need simple, clear language
+
+**Real Example:**
+```
+Bad Button:
+<div onclick="submit()">Click Here</div>
+❌ Screen reader: "Clickable, Click Here" (confusing!)
+❌ Keyboard: Can't access with Tab key
+❌ No description of what it does
+
+Good Button:
+<button aria-label="Submit registration form">Register</button>
+✅ Screen reader: "Button, Submit registration form"
+✅ Keyboard: Tab key works
+✅ Clear purpose
+```
+
+**WCAG Levels:**
+- **Level A**: Minimum (must have)
+- **Level AA**: Standard (recommended, legal requirement)
+- **Level AAA**: Enhanced (nice to have)
+
+**Common A11y Issues:**
+1. Missing alt text on images
+2. Low color contrast (light gray on white)
+3. No keyboard navigation
+4. Missing form labels
+5. Videos without captions
+
+---
+
 ## Table of Contents
 - [Why Accessibility Testing Matters](#why-accessibility-testing-matters)
 - [WCAG Guidelines](#wcag-guidelines)

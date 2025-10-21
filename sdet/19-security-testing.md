@@ -1,5 +1,79 @@
 # 19. Security Testing for SDET
 
+## 📚 Quick Summary
+
+Security breaches cost millions - prevent them with security testing!
+
+**What You'll Learn:**
+- **OWASP Top 10**: Most critical web security risks
+- **SQL Injection**: Prevent database attacks
+- **XSS**: Cross-Site Scripting attacks
+- **Authentication**: Test login security
+- **API Security**: Secure your APIs
+- **Tools**: OWASP ZAP, Burp Suite
+
+**Why This Matters:**
+- **Data Breaches**: Cost average $4.45M per incident
+- **Customer Trust**: One breach destroys reputation
+- **Legal**: GDPR, PCI-DSS compliance required
+- **Growing Need**: Security testing engineers in high demand
+- **Your Responsibility**: SDETs expected to know security basics
+
+**Reality Check:**
+Equifax breach: 147M records stolen, $700M settlement!
+
+---
+
+## 📖 Simple Explanation
+
+**What is Security Testing?**
+Finding vulnerabilities before hackers do!
+
+**Analogy:** Testing locks on a house
+- **Functional Testing**: Does the door open/close? ✅
+- **Security Testing**: Can someone pick the lock? Break in through window? 🔒
+
+**Top 3 Most Common Attacks:**
+
+**1. SQL Injection (Manipulate database)**
+```
+Login form:
+Username: admin' OR '1'='1
+Password: anything
+
+❌ Query: SELECT * FROM users WHERE name='admin' OR '1'='1' AND pass='anything'
+Result: Logs in without password! (1=1 is always true)
+
+✅ Fix: Use PreparedStatement (prevents injection)
+```
+
+**2. XSS - Cross-Site Scripting (Inject malicious code)**
+```
+Comment box:
+User enters: <script>steal_cookies()</script>
+
+❌ Shows on page: Script runs, steals user data
+✅ Fix: Escape/sanitize user input
+```
+
+**3. Broken Authentication (Weak login)**
+```
+❌ No rate limiting → Can try 1000 passwords/second
+❌ Weak passwords allowed → "password123"
+❌ No MFA → Single factor of authentication
+
+✅ Fix: Rate limiting, Strong password policy, MFA
+```
+
+**SDET's Role:**
+- Test authentication flows
+- Check for SQL injection in forms
+- Validate input sanitization
+- Test authorization (can user A access user B's data?)
+- Use automated security scanners
+
+---
+
 ## Table of Contents
 - [Why Security Testing Matters](#why-security-testing-matters)
 - [OWASP Top 10](#owasp-top-10)

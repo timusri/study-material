@@ -1,5 +1,59 @@
 # 14. Interview Questions & Answers - Part 2
 
+## 📚 Quick Summary
+
+More interview questions focusing on system design, leadership, and behavioral!
+
+**What's Inside:**
+- **System Design Questions**: How to design test frameworks at scale
+- **Leadership Questions**: Team management, mentoring, conflict resolution
+- **Behavioral Questions**: STAR format answers for common scenarios
+- **Scenario-Based**: Real-world testing challenges and solutions
+
+**Why This Matters:**
+- Senior roles focus MORE on design/leadership than coding
+- Behavioral round is often the deciding factor
+- System design shows you can think at scale
+- Demonstrates maturity and experience
+
+**Common Behavioral Questions:**
+- "Tell me about a time you disagreed with a developer"
+- "How do you handle tight deadlines?"
+- "Describe a challenging bug you found"
+- "How do you prioritize testing?"
+
+**Preparation Tip:**
+Have 10-15 STAR stories ready covering different scenarios!
+
+---
+
+## 📖 Simple Explanation
+
+**Why Behavioral Questions?**
+Companies want to know:
+- ✅ Can you work with others?
+- ✅ Can you handle pressure?
+- ✅ Can you lead without authority?
+- ✅ Can you communicate with non-technical people?
+
+**STAR Method Example:**
+
+**Question:** "Tell me about a time you improved test efficiency"
+
+**Answer:**
+**S** (Situation): "Our regression suite took 8 hours, blocking releases"
+**T** (Task): "I was tasked to reduce execution time by 50%"
+**A** (Action): "I analyzed tests, removed duplicates (200→150), parallelized execution using Selenium Grid (4 nodes), and moved 30% to API level"
+**R** (Result): "Reduced time from 8 hours to 2.5 hours (70% improvement), enabling 2 releases/week instead of 1. Team velocity increased 30%"
+
+**Why This Works:**
+- Specific numbers (8h → 2.5h)
+- Clear actions taken
+- Measurable result
+- Shows initiative and impact
+
+---
+
 ## System Design Questions
 
 ### Q1: Design a test automation solution for a microservices application

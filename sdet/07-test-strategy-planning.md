@@ -1,5 +1,60 @@
 # 7. Test Strategy & Planning
 
+## 📚 Quick Summary
+
+Strategy is what separates senior SDETs from junior - thinking beyond "just writing tests"!
+
+**What You'll Learn:**
+- **Test Planning**: What to test, when, how much
+- **Risk-Based Testing**: Focus on what matters most
+- **Test Prioritization**: Critical vs Nice-to-have
+- **Regression Strategy**: Smart regression testing
+- **Shift-Left**: Test early, save time and money
+- **Metrics**: Measure and improve quality
+
+**Why This Matters:**
+- Senior roles need strategic thinking
+- Can't test everything - need smart decisions
+- Business impact over just coverage numbers
+- Leadership expects you to plan, not just execute
+
+**Interview Signal:**
+Discussing strategy shows senior-level thinking!
+
+---
+
+## 📖 Simple Explanation
+
+**What is Test Strategy?**
+Strategy is the "why" and "what" before the "how".
+
+**Analogy:** Planning a trip
+- **Strategy**: Where to go, when, budget, must-see places (Test Strategy)
+- **Execution**: Book tickets, pack bags, drive (Writing Tests)
+
+**Why Strategic Thinking?**
+You have:
+- ❌ Unlimited time? No
+- ❌ Unlimited resources? No
+- ❌ Zero pressure? No
+
+So you need:
+- ✅ Smart priorities
+- ✅ Risk-based focus
+- ✅ Efficient regression
+- ✅ Measurable results
+
+**Example:**
+```
+❌ Junior approach: "Let's automate all 1000 test cases!"
+✅ Senior approach: "Let's automate 100 critical cases that cover 80% risk, 
+   run them every build, and manually test remaining 900 quarterly."
+
+Result: Same quality, 90% less effort!
+```
+
+---
+
 ## Table of Contents
 - [Test Planning & Estimation](#test-planning--estimation)
 - [Risk-Based Testing](#risk-based-testing)

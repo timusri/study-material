@@ -1,5 +1,73 @@
 # 21. Visual Regression Testing
 
+## 📚 Quick Summary
+
+Catch visual bugs that functional tests miss - the UI looks broken but works!
+
+**What You'll Learn:**
+- **Visual Testing**: Detect UI changes automatically
+- **Tools**: Percy, Applitools, BackstopJS
+- **Screenshot Comparison**: Baseline vs Current
+- **Dynamic Content**: Handle changing elements
+- **CI/CD Integration**: Automated visual checks
+
+**Why This Matters:**
+- **UI Bugs**: 30% of bugs are visual-only
+- **User Experience**: Broken UI = Lost customers
+- **CSS Changes**: CSS updates can break layouts
+- **Responsive**: Test across devices/browsers
+- **Fast Detection**: Catch issues before production
+
+**Real Example:**
+Login button overlaps text field - works but looks broken!
+
+---
+
+## 📖 Simple Explanation
+
+**What is Visual Regression?**
+Automatically detecting when your UI looks different than expected.
+
+**Problem:**
+```
+Functional Test says: ✅ Login button exists, clickable
+Reality: Button is behind header, user can't see it!
+```
+
+**How Visual Testing Works:**
+```
+1. Take screenshot (Baseline) - "This is how it should look"
+2. Code changes happen
+3. Take new screenshot (Current)
+4. Compare: Baseline vs Current
+5. Differences highlighted → Bug found!
+```
+
+**Real Example:**
+```
+Change: Developer updates CSS
+Result: 
+- Header covers navigation
+- Text is white on white background (invisible!)
+- Button moved off screen
+
+❌ Functional tests: All pass (elements exist, clickable)
+✅ Visual test: Fails! UI looks broken
+```
+
+**Tools:**
+- **Percy**: Cloud-based, easy setup, $$$
+- **Applitools**: AI-powered, ignores minor changes, $$$
+- **BackstopJS**: Open-source, free, requires setup
+
+**Best Practices:**
+- Baseline on stable UI
+- Ignore dynamic content (dates, ads)
+- Test across devices (mobile, tablet, desktop)
+- Review changes before approving
+
+---
+
 ## Table of Contents
 - [What is Visual Regression Testing](#what-is-visual-regression-testing)
 - [Tools Overview](#tools-overview)

@@ -1,5 +1,58 @@
 # 9. Performance & Load Testing
 
+## 📚 Quick Summary
+
+Performance testing ensures your app doesn't crash when it matters most!
+
+**What You'll Learn:**
+- **Performance Basics**: Load, Stress, Spike, Endurance testing
+- **JMeter**: Most popular performance testing tool
+- **Metrics**: Response time, Throughput, TPS, Error rate
+- **Bottlenecks**: Find what's slowing down your app
+- **Automation**: Performance tests in CI/CD
+
+**Why This Matters:**
+- App works with 10 users ≠ Works with 10,000 users
+- Black Friday, Product launches = High traffic
+- Slow app = Lost customers = Lost revenue
+- Performance issues hard to fix later
+
+**Real Impact:**
+Amazon: 1 second delay = $1.6 billion lost revenue/year!
+
+---
+
+## 📖 Simple Explanation
+
+**What is Performance Testing?**
+Testing if your app can handle real-world usage without breaking or slowing down.
+
+**Analogy:** Testing a bridge
+- **Functional Testing**: Does the bridge connect two sides? ✅
+- **Performance Testing**: Can it handle 1000 cars at once? ⏱️
+- **Load Testing**: What happens with expected traffic?
+- **Stress Testing**: How many cars until it breaks? 💥
+
+**Real Example:**
+```
+Your e-commerce site:
+- Works fine with 10 test users ✅
+- Launch day: 10,000 real users 📈
+- Site crashes 💥
+- Customers angry 😠
+- Revenue lost 💸
+
+Solution: Load test with 10,000 virtual users BEFORE launch!
+```
+
+**Key Metrics:**
+- **Response Time**: How fast? (< 2 seconds good)
+- **Throughput**: How many requests/second?
+- **Error Rate**: How many failures? (< 1% acceptable)
+- **CPU/Memory**: Resource usage
+
+---
+
 ## Table of Contents
 - [Performance Testing Fundamentals](#performance-testing-fundamentals)
 - [JMeter Setup and Configuration](#jmeter-setup-and-configuration)

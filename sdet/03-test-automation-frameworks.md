@@ -1,5 +1,25 @@
 # 3. Test Automation Frameworks
 
+## 📚 Quick Summary
+
+A test automation framework is the foundation of your testing strategy - like the blueprint of a house.
+
+**What You'll Learn:**
+- **Framework Types**: Linear, Modular, Data-Driven, Keyword-Driven, Hybrid, BDD
+- **Architecture**: How to design scalable frameworks
+- **Best Practices**: Configuration, test data, reporting
+- **Hybrid Framework**: Combining best of all approaches
+
+**Why This Matters:**
+- Interviews ALWAYS ask: "Tell me about your framework"
+- Shows your architectural thinking
+- Demonstrates real-world experience
+
+**Key Interview Question:**
+"Describe your test automation framework" - This chapter prepares you perfectly!
+
+---
+
 ## Table of Contents
 - [Framework Types](#framework-types)
 - [Framework Architecture](#framework-architecture)

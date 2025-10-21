@@ -1,5 +1,25 @@
 # 4. Testing Tools & Technologies
 
+## 📚 Quick Summary
+
+Master the essential tools every SDET uses daily.
+
+**Tools Covered:**
+- **TestNG/JUnit**: Test execution frameworks
+- **Maven/Gradle**: Build and dependency management
+- **Git**: Version control (essential!)
+- **Jenkins**: CI/CD automation
+- **Docker**: Containerization for tests
+- **Cucumber**: BDD framework
+
+**Why This Matters:**
+These are the tools you'll use EVERY day as an SDET. Knowing them well = productive developer.
+
+**Interview Focus:**
+"Explain your CI/CD pipeline" - You'll be ready!
+
+---
+
 ## Table of Contents
 - [TestNG Advanced Features](#testng-advanced-features)
 - [Maven/Gradle Build Tools](#mavengradle-build-tools)

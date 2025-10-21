@@ -1,5 +1,63 @@
 # 8. CI/CD & DevOps
 
+## 📚 Quick Summary
+
+DevOps + Testing = Continuous Testing. This is THE hot skill for modern SDETs!
+
+**What You'll Learn:**
+- **CI/CD Basics**: Automated build, test, deploy pipeline
+- **Jenkins**: Most popular CI/CD tool (Pipelines, Jobs)
+- **Docker**: Containerize your tests for consistency
+- **Kubernetes**: Orchestrate containers at scale
+- **Best Practices**: Fast feedback, parallel execution
+
+**Why This Matters:**
+- Manual test execution is outdated
+- Tests must run automatically on EVERY commit
+- DevOps knowledge = premium salaries
+- Future of testing is in the pipeline
+
+**Hot Skill Alert:**
+"Docker + Kubernetes + CI/CD" = Top 5% of SDETs!
+
+---
+
+## 📖 Simple Explanation
+
+**What is CI/CD?**
+CI/CD is like having a robot that automatically tests your code every time you make a change.
+
+**Traditional Way (Manual):**
+```
+Developer codes → Pushes code → QA manually downloads → 
+QA manually sets up → QA manually runs tests → 
+Takes hours/days → Feedback too late
+```
+
+**CI/CD Way (Automated):**
+```
+Developer codes → Pushes code → Pipeline automatically:
+  1. Downloads code
+  2. Builds application  
+  3. Runs all tests
+  4. Reports results
+→ Takes minutes → Immediate feedback!
+```
+
+**Real Benefits:**
+- ✅ Catch bugs in minutes, not days
+- ✅ Run tests 100 times a day (not just once)
+- ✅ Every commit is tested
+- ✅ Confidence to release anytime
+
+**Docker Analogy:**
+Docker is like a shipping container for your tests:
+- Works same way everywhere (your laptop, server, cloud)
+- No more "works on my machine" problems
+- Easy to move, duplicate, scale
+
+---
+
 ## Table of Contents
 - [CI/CD Fundamentals](#cicd-fundamentals)
 - [Jenkins Pipeline](#jenkins-pipeline)

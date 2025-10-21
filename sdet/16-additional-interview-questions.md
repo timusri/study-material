@@ -1,5 +1,54 @@
 # 16. Additional Interview Questions from Industry
 
+## 📚 Quick Summary
+
+Company-specific questions from real interviews at FAANG, Fintech, E-commerce!
+
+**What's Inside:**
+- **Basic SDET Concepts**: Role, responsibilities, skills
+- **Freshers Questions**: Manual vs Automated, Alpha/Beta testing
+- **Severity vs Priority**: Matrix with real examples
+- **Risk-Based Testing**: With implementation
+- **Company-Specific**: FAANG, Fintech, E-commerce, Product companies
+
+**Why This Matters:**
+- Different companies ask different questions
+- FAANG focuses on algorithms
+- Fintech focuses on security
+- E-commerce focuses on scale
+- Know your target!
+
+**Preparation Strategy:**
+Research your target company's tech stack and common questions!
+
+---
+
+## 📖 Simple Explanation
+
+**How to Prepare by Company Type:**
+
+**FAANG (Facebook, Amazon, Apple, Netflix, Google):**
+- Strong coding (LeetCode medium/hard)
+- System design at scale
+- Behavioral (leadership principles)
+
+**Fintech (PayPal, Stripe, Square):**
+- Security testing (OWASP)
+- Payment flow testing
+- Compliance and regulations
+
+**E-commerce (Amazon, Flipkart, eBay):**
+- High traffic scenarios
+- Performance testing
+- Cart/Checkout flows
+
+**Product (Salesforce, Adobe, Atlassian):**
+- API testing
+- Integration testing
+- Customer-focused scenarios
+
+---
+
 ## Table of Contents
 - [Basic SDET Concepts](#basic-sdet-concepts)
 - [Freshers Level Questions](#freshers-level-questions)

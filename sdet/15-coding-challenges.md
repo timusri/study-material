@@ -1,5 +1,80 @@
 # 15. Coding Challenges & Solutions
 
+## 📚 Quick Summary
+
+Practice makes perfect - solve these challenges to ace coding interviews!
+
+**What's Inside:**
+- **Java Coding Problems**: Arrays, strings, algorithms (50+ problems)
+- **Selenium Challenges**: Real automation scenarios
+- **Algorithm Problems**: Sorting, searching, data structures
+- **Real-World Scenarios**: Practical testing challenges
+
+**Why This Matters:**
+- FAANG interviews have 1-2 coding rounds
+- Tests problem-solving ability, not just knowledge
+- Need to code live (whiteboard or screen share)
+- Speed and correctness both matter
+
+**How to Practice:**
+1. **Time yourself** - 30-45 minutes per problem
+2. **Code without IDE help** - Practice on paper/whiteboard first
+3. **Explain your thinking** - Talk through approach
+4. **Test your code** - Include test cases
+5. **Optimize** - Discuss time/space complexity
+
+**Interview Tip:**
+Always discuss approach BEFORE coding. Ask clarifying questions!
+
+---
+
+## 📖 Simple Explanation
+
+**What to Expect:**
+
+**Easy Problems (Warm-up):**
+- Reverse a string
+- Find duplicates in array
+- FizzBuzz
+
+**Medium Problems (Main interview):**
+- Two Sum problem
+- Valid Parentheses
+- Merge sorted arrays
+
+**Hard Problems (Senior roles):**
+- Design LRU Cache
+- Serialize/Deserialize binary tree
+- System design problems
+
+**Approach:**
+```
+1. **Clarify**: Ask questions
+   - Input format? Size? Edge cases?
+   
+2. **Example**: Work through example
+   - Input: [1,2,3,4], Target: 5
+   - Output: [1,4] (indices of 1+4=5)
+   
+3. **Approach**: Explain solution
+   - Brute force: Nested loops O(n²)
+   - Better: HashMap O(n)
+   
+4. **Code**: Write clean code
+   - Proper variable names
+   - Handle edge cases
+   
+5. **Test**: Run through examples
+   - Happy path
+   - Edge cases (empty, null, single element)
+   
+6. **Optimize**: Discuss improvements
+   - Time complexity
+   - Space complexity
+```
+
+---
+
 ## Java Coding Challenges
 
 ### Challenge 1: Find Duplicate Characters in a String
